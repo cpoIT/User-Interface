@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+		box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,87 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Elements */
+h1 {
+	font-size: 72px;
+}
+p {
+	padding-bottom: 10px;
+}
+
+header {
+	column-count: 2;
+	
+}
+
+header h1 {
+	margin: 20px;
+	text-align: center;
+	padding-left: 100px;
+}
+
+header p {
+	border: 1px solid black;
+	margin: 10px 100px;
+	padding-top: 8px;
+	text-align: center;
+	margin-left: 200px;
+}
+
+/* Classes */
+.navigation-bar { 
+	margin-bottom: 20px;
+	padding-left: 50px;
+}
+
+.logo {
+	padding-left: 20px;
+}
+
+.navigation-bar a {
+	color: lightgrey;
+	font-size: 14px;
+	padding: 0px 30px;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+header img {
+	margin-bottom: 20px;
+}
+
+.columns-2 {
+	border-top: 1px solid black;
+	margin: 0px 50px;
+	padding: 20px 0px;
+	column-count: 2;
+}
+
+
+.middle-img {
+	padding: 10px 0px 10px 50px;
+}
+
+.columns-3 {
+	padding: 20px 0px;
+	margin: 0px 50px;
+	column-count: 3;
+	border-bottom: 1px solid black;
+}
+
+.contact {
+	padding: 20px 50px;
+}
+
+.copyright {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
